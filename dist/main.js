@@ -1,6 +1,9 @@
 (() => {
-  console.log('=============================='),
-    console.log('Hello all'),
-    console.log('Imorted Cars ---\x3e SCORPIOomni'),
-    console.log('==============================');
+  function a(a, n) {
+    (this.name = a), (this.age = n);
+  }
+  const n = ['Gobi', 'Tharani', 'Jayanthi', 'Thiyagarajan'].map(
+    (n) => new a(n, 20)
+  );
+  console.log(n);
 })();
